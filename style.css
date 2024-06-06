@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+font-family: "Lato", sans-serif;
+margin: 0;
+padding: 0;
+scroll-behavior: smooth;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.808);
+}
+header{
+    background-color: rgb(10, 33, 109);
+    width: 100%;
+    height:80px ;
+    position: fixed;
+    top:0;
+    color: white;
+}
+strong{
+    float: left;
+    margin-left: 110px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+strong:hover{
+    font-size: 26px;
+    transition: 0.2s;
+    color: rgba(255, 255, 255, 0.877);
+}
+
+nav{
+    float: right;
+    margin-top: 29px;
+    margin-right: 110px;
+}
+nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(46, 15, 114);
+    color: white;
+}
+nav a:hover{
+    color: rgba(255, 255, 255, 0.384);
+    transition: 0.5s;
+}
+
+.MindPro{
+width: 100%;
+margin-top: 5%;
+margin-bottom: 2%;
+}
+
+.MindPro img{
+    width: 100%;   
+}
+.chamada{
+background-color: rgba(0, 0, 0, 0.507);
+padding: 25px;
+border-radius: 6px;
+color: white;
+width: 350px;
+position:absolute;
+top:76vh;
+left: 30px;
+}
+.chamada:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+    transition: .5s;
+    width: 340px;
+    }
+
+.MindPro2{
+    width: 70%; 
+    margin-left: 30px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+}
+.MindPro2 label{
+    font-size: 40px;
+}
+.caps img{
+    height: 360px;
+    float:right;
+    margin-top: -60vh;
+}
