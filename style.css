@@ -21,11 +21,11 @@ header{
     top:0;
     color: white;
 }
-strong{
+header strong{
     float: left;
     margin-left: 110px;
     font-size: 25px;
-    margin-top: 20px;
+    margin-top: 24px;
 }
 
 strong:hover{
@@ -49,11 +49,14 @@ nav a:hover{
     color: rgba(255, 255, 255, 0.384);
     transition: 0.5s;
 }
-
+#saibamais{
+    height: 80vh;
+    padding-top: 2%;
+}
 .MindPro{
 width: 100%;
-margin-top: 5%;
 margin-bottom: 2%;
+margin-top: 3%;
 }
 
 .MindPro img{
@@ -66,7 +69,7 @@ border-radius: 6px;
 color: white;
 width: 350px;
 position:absolute;
-top:76vh;
+top:72vh;
 left: 30px;
 }
 .chamada:hover{
@@ -74,6 +77,7 @@ left: 30px;
     transition: .5s;
     width: 340px;
     }
+
 
 .MindPro2{
     width: 70%; 
@@ -88,4 +92,82 @@ left: 30px;
     height: 360px;
     float:right;
     margin-top: -60vh;
+}
+
+.MindPro3{
+    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    margin-bottom: 50px;
+    background-color:  rgb(10, 33, 109);
+
+}
+.MindPro3 p{
+    margin-bottom: 15px;
+    text-align:left;
+
+}
+.MindPro3 h1{
+    margin-bottom: 18px;
+    font-size: 25px;
+
+}
+.MindPro3 h3{
+    margin-bottom: 19px;
+    text-align:left;
+}
+
+.MindPro3 aside img{
+    height: 260px;
+    float:right;
+    margin-top: -60vh;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+.MindPro3 aside img:hover{
+    height: 265px;
+    float:right;
+    margin-top: -62vh;
+    border-radius: 35px;
+    transition: .5s;
+}
+
+.MindPro4{
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+    margin-top:-30px;
+    background-color:  rgb(255, 255, 255);
+}
+.MindPro4 h1{
+    margin-bottom: 10px;
+    font-size: 30px; 
+    text-align: center;
+}
+
+.MindPro4 article{
+    margin-top: 50px;
+    margin-left: 21vh;
+    width: 250px;
+    text-align: center;
+    float: left;
+}
+
+.MindPro4 article img{
+    width: 250px;
+    border-radius: 45%;
+    margin-bottom: 30px;
+}
+.MindPro4 article img:hover{
+    width: 260px;
+    border-radius: 30%;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.MindPro4 p{
+    margin-bottom: 12px;
+    text-align: center;
 }
