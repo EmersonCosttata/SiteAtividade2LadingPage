@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MindCapsPro - Pontencialize sua Mente!</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
     <body>
-
+        <script src="script/script.js"></script>
         <div class="chamada">
             <h2>Melhore sua concentração por R$19,90! </h2>
             <p>Você está pronto para elevar sua concentração e desempenho mental ao máximo? </p>
@@ -19,8 +19,8 @@
             <nav>
                 <a href="#home">Inicio</a>
                 <a href="#saibamais">Saiba Mais</a>
-                <a href="">Capsulas</a>
-                <a href="">Contato</a>
+                <a href="caps.html">Capsulas</a>
+                <a href="#contato">Contato</a>
            </nav>
         </header>
         <section class="MindPro" id="home">
@@ -59,6 +59,26 @@
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatibus quod magni perferendis animi praesentium optio, consequuntur est voluptatum minima accusantium quaerat. Necessitatibus voluptates ut optio nobis eum hic laboriosam.</p>
                 <aside c><img src="img/foco1.png"></aside>   
             </section>
+
+            <section class="Contato">
+                <h2>Formulário de Contato</h2>
+                <p>Ficou com alguma Duvida? Nos Mande uma Mensagem!</p>
+                <form id="FormContato">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" id="telefone" name="telefone" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <button type="submit" onclick="handleSubmit()">Enviar</button>
+                </form>
+            </section>
+
             <section class="MindPro4">
                 <h1>Depoimentos de Quem Já Usa MindPro Caps </h1>
                 <article >
@@ -75,9 +95,16 @@
                             <img src="img/person3.jpeg">
                             <h4>Pedro F.</h4>
                          <p>"Desde que comecei a usar MindPro Caps, minha produtividade no trabalho aumentou significativamente. Consigo me concentrar por mais tempo e completar minhas tarefas com mais eficiência."</p>
-                        </article>
+                         <article id="compre" >
+                            <div></div>
+                        <h1 >Compre agora mesmo suas capsulas para usar 100% do seu Celebro! </h1>
+                        <a href="caps.html"><h3>Compre Agora!</h3></a>
+                    </article>
              </section>
 
-            
+            <footer>
+                <p> 2024 - MindPro Caps. Todos os direitos reservados</p>
+                <p>by Emerson Costa</p>
+            </footer>
     </body>
 </html>

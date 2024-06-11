@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    }
+    
+    body{
+        background-color: rgba(255, 255, 255, 0.808);
+    }
+    header{
+        background-color: rgba(10, 20, 109, 0.774);
+        width: 100%;
+        height:80px ;
+        position: fixed;
+        top:0;
+        color: white;
+    }
+    header strong{
+        float: left;
+        margin-left: 110px;
+        font-size: 25px;
+        margin-top: 24px;
+    }
+    
+    strong:hover{
+        font-size: 26px;
+        transition: 0.2s;
+        color: rgba(255, 255, 255, 0.877);
+    }
+    nav{
+        float: right;
+        margin-top: 24px;
+        margin-right: 110px;
+    }
+    nav img{
+        width: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        filter: invert(100%);;
+    }
+    nav span{
+        float: right;
+    }
+    nav a{
+        margin-left: 17px;
+        text-decoration: none;
+        color: rgb(46, 15, 114);
+        color: white;
+    }
+    nav a:hover{
+        color: rgba(255, 255, 255, 0.384);
+        transition: 0.5s;
+    }
+.caps1{
+    width: 100%;
+    color:rgb(0, 0, 0);
+    margin-top: 9%;
+    text-align: center;
+}
+#products{
+    width: 100%;
+    margin-left:10px;
+}
+.produto{
+    width: 232px;
+    margin-top: 25px;
+    float: left;
+}
+
+.produto img{
+    width: 230px;
+}
+.produto h3, p{
+    padding: 3px;
+    margin: 3px;
+}
+
+.produto button{
+    margin:2px;
+ background-color: rgba(10, 20, 109, 0.764);;;
+border-radius: 5px;
+color: white;
+border: none;
+ padding: 9px;
+}
+
+.produto button:hover{
+    background-color: rgb(10, 20, 109);;;
+   }
+
+footer{
+    margin-top: 105px;
+    text-align: center;
+    padding: 9px;
+    width: 100%;
+    background-color:  rgba(10, 20, 109, 0.764);;
+    color:rgb(255, 255, 255);
+    position:relative;
+    top:100%;
+    float:left;
+}
