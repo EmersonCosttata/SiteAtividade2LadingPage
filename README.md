@@ -7,3 +7,7 @@ Ultilizado: HTML, CSS E JS
 para acessar o site basta clicar no link abaixo:
 
 https://emersoncosttata.github.io/SiteAtividade2LadingPage/
+
+Agora estamos atualizando ela para o melhor, deixando responsiva e com muitas novidades!
+Acompanhe tudo na branch professional
+ 
