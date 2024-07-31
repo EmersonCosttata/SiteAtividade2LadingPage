@@ -1,87 +1,90 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mind Caps Pro Loja Virtual</title>
-    <link rel="stylesheet" href="css/caps.css">
-</head>
-<body>
-    <script src="script/script.js"></script>
-    <header>    
-        <strong> MindCapsPro </strong>
-        <nav>
-            <a href="">Inicio</a>
-            <a href="">Produtos</a>
-            <a href="index.html">Pagina do Produto</a>
-            <img src="img/carrinho.png"><span id="span">0</span
-       </nav>
-    </header>
-    <section class="caps1">
-        <h1>Produtos em Estoque</h1>
-        
-        <section id="products">
-       <article class="produto">
-            <img src="img/caps1.png" alt="caps">
+
+<header>    
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <a class="navbar-brand" href="#">
+        <strong>MindCapsPro - Loja</strong>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item" id="loadButton">
+                <a class="nav-link text-white" href="#">Capsulas</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="index.html">Pagina do Produto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="card.html"><img src="img/carrinho.png" id="card"><span id="span">0</span></a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+</header>
+
+<section class="caps1 d-flex flex-column justify-content-center">
+    <h1>Produtos em Estoque</h1>
+    <p id="cardmessage"></p>
+    <section id="products" class="d-flex justify-content-center align-items-center flex-wrap">
+
+       <article class="product" data-id="1" data-name="MindCapsPro 30 Caps" data-price="19.00" data-img="img/caps1.png">
+            <img src="img/caps1.png" alt="caps" class="img-fluid">
             <h3>MindCapsPro 30 Caps</h3>
             <p>Transforme Seu Mês com 30 Cápsulas de MindPro Caps!</p>
             <h3>R$19,00</h3>
             <button>Ver</button>
-            <button onclick="addCart()">+</button>
+            <button  onclick="addToCart(event)">+</button>
         </article>
 
-        <article class="produto">
-            <img src="img/caps2.png" alt="caps">
+        <article class="product" data-id="2" data-name="MindCapsPro 60 Caps" data-price="37.90" data-img="img/caps2.png">
+            <img src="img/caps2.png" alt="caps" class="img-fluid">
             <h3>MindCapsPro 60 Caps</h3>
             <p>Transforme Seu Mês com 60 Cápsulas de MindPro Caps!</p>
             <h3>R$39,80 por R$37,90</h3>
             <button>Ver</button>
-            <button onclick="addCart()">+</button>
+            <button  onclick="addToCart(event)">+</button>
         </article>
 
-        <article class="produto">
-            <img src="img/caps3.png" alt="caps">
+        <article class="product" data-id="3" data-name="MindCapsPro 90 Caps" data-price="52.00" data-img="img/caps3.png">
+            <img src="img/caps3.png" alt="caps" class="img-fluid">
             <h3>MindCapsPro 90 Caps</h3>
             <p>Foco e Clareza Mental por # Meses com MindPro Caps</p>
             <h3>R$59,70 por R$52,00</h3>
             <button>Ver</button>
-            <button onclick="addCart()">+</button>
-         </article>
+            <button onclick="addToCart(event)">+</button>
+        </article>
 
-        <article class="produto">
-            <img src="img/caps4.png" alt="caps">
+        <article class="product" data-id="4" data-name="MindCapsPro 120 Caps" data-price="75.00" data-img="img/caps4.png">
+            <img src="img/caps4.png" alt="caps" class="img-fluid">
             <h3>MindCapsPro 120 Caps</h3>
             <p>120 Cápsulas para 3 Meses de Excelência Mental com MindPro Caps</p>
             <h3>R$79,60 por R$75,00</h3>
             <button>Ver</button>
-            <button onclick="addCart()">+</button>
+            <button  onclick="addToCart(event)">+</button>
         </article>
 
-        <article class="produto">
-            <img src="img/caps5.png" alt="caps">
+        <article class="product" data-id="5" data-name="MindCapsPro 160 Caps" data-price="90.00" data-img="img/caps5.png">
+            <img src="img/caps5.png" alt="caps" class="img-fluid">
             <h3>MindCapsPro 160 Caps</h3>
             <p>Potência Mental por 160 Dias com MindPro Caps</p>
             <h3>R$100,00 por R$90,00</h3>
             <button>Ver</button>
-            <button onclick="addCart()">+</button>
+            <button  onclick="addToCart(event)">+</button>
         </article>
 
-        <article class="produto">
-            <img src="img/caps6.png" alt="caps">
+        <article class="product" data-id="6" data-name="MindCapsPro 190 Caps" data-price="105.00" data-img="img/caps6.png">
+            <img src="img/caps6.png" alt="caps" class="img-fluid">
             <h3>MindCapsPro 190 Caps</h3>
             <p>Foco Ininterrupto por 190 Dias com MindPro Caps</p>
             <h3>R$119,90 por R$105,00</h3>
             <button>Ver</button>
-            <button onclick="addCart()">+</button>
+            <button  onclick="addToCart(event)">+</button>
         </article>
+    </section> 
+</section>
+<div class="footer"></div>
 
-        </section> 
-    </section>
-
-    <footer>
-        <p> 2024 - MindPro Caps. Todos os direitos reservados</p>
-        <p>by Emerson Costa</p>
-        
-    </footer>
-</body>
-</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindCapsPro - Pontencialize sua Mente!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/caps.css">
+    <script src="script/card.js" denfer></script>
+</head>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        displayCart();
+     
+  });
+
+</script>
+    <body>
+  
+    <div class='carrinho d-flex flex-column align-items-center flex-wrap'>
+        <a href="index.html">Fechar</a>
+        <h1>Carrinho de Compras</h1>
+        <div id="cart"></div>
+        CUPOM:<input type="text" value="1COMPRA10" id="cupom">
+        <button onclick="applyDescont()">Aplicar</button>
+        <p id="cartTotal"></p>
+        <button onclick="clearCart()">Limpar Carrinho</button>
+      
+        <a href="index.html">Continuar Comprando</a>
+        <button onclick="alert('Parabens! Compra Aprovada!')">Finalizar Compra</button>
+    </div>
+</body >
+
