@@ -1,104 +1,139 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
-    font-family: "Lato", sans-serif;
-    margin: 0;
-    padding: 0;
     scroll-behavior: smooth;
     }
     
     body{
         background-color: rgba(255, 255, 255, 0.808);
     }
-    header{
-        background-color: rgba(10, 20, 109, 0.774);
-        width: 100%;
-        height:80px ;
-        position: fixed;
-        top:0;
-        color: white;
-    }
-    header strong{
-        float: left;
-        margin-left: 110px;
-        font-size: 25px;
-        margin-top: 24px;
-    }
-    
-    strong:hover{
-        font-size: 26px;
-        transition: 0.2s;
-        color: rgba(255, 255, 255, 0.877);
-    }
-    nav{
-        float: right;
-        margin-top: 24px;
-        margin-right: 110px;
-    }
-    nav img{
-        width: 30px;
-        margin-left: 10px;
-        margin-right: 10px;
-        filter: invert(100%);;
-    }
-    nav span{
-        float: right;
-    }
-    nav a{
-        margin-left: 17px;
-        text-decoration: none;
-        color: rgb(46, 15, 114);
-        color: white;
-    }
-    nav a:hover{
-        color: rgba(255, 255, 255, 0.384);
-        transition: 0.5s;
-    }
+
+#card{
+    margin-right: 0.3em;
+    width: 30px;
+    filter: invert(100%);
+}    
 .caps1{
     width: 100%;
     color:rgb(0, 0, 0);
-    margin-top: 9%;
+    margin-top: 1.5em;
     text-align: center;
 }
-#products{
-    width: 100%;
-    margin-left:10px;
-}
-.produto{
-    width: 232px;
-    margin-top: 25px;
-    float: left;
-}
 
-.produto img{
+.product{
+    margin: 1em;
     width: 230px;
 }
-.produto h3, p{
+
+.product img{
+    width: 40vh;
+}
+.product h3, p{
     padding: 3px;
     margin: 3px;
 }
 
-.produto button{
-    margin:2px;
+.product button{
+    margin:3px;
  background-color: rgba(10, 20, 109, 0.764);;;
 border-radius: 5px;
 color: white;
 border: none;
- padding: 9px;
+ padding: 11px;
 }
 
-.produto button:hover{
+.product button:hover{
+    transition: 0.5s;
     background-color: rgb(10, 20, 109);;;
    }
 
-footer{
-    margin-top: 105px;
+   
+.carrinho{
+    color: white;
+    background-color:  rgb(10, 33, 109);
+    padding: 1em;
     text-align: center;
-    padding: 9px;
-    width: 100%;
-    background-color:  rgba(10, 20, 109, 0.764);;
-    color:rgb(255, 255, 255);
-    position:relative;
-    top:100%;
-    float:left;
+}
+
+
+.productcard{
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #a1c5f53f;
+    border-radius: 1em;
+}
+
+.carrinho input{
+    border-radius: 0.5em;
+   width:10em;
+   text-align: center;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   background-color: #e8ebee;
+   padding: 3px;
+   margin: 5px;
+   text-align: center;
+   }
+
+.productcard input{
+ border-radius: 0.5em;
+width:2em;
+text-align: center;
+border: 1px solid #ccc;
+border-radius: 4px;
+background-color: #e8ebee;
+padding: 3px;
+margin: 5px;
+}
+
+.productcard img{
+   width:35vh;
+   }
+
+.productcard button,.carrinho button{
+margin: 2px;
+padding: 2px;
+border-radius: 0.5em;
+width:6em;
+border: 1px solid #ccc;
+background-color: #e8ebee;
+border-radius: 4px;
+
+}
+.productcard button:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #a1c6f5;
+}
+
+#cart{
+padding: 1em;
+}
+
+.foter{
+    margin-bottom: -9em;
+ }
+
+.carrinho a{
+    margin: 0.5em;
+    font-size:2em;
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+   border: 1px solid #ccc;
+   padding: 0.5em;
+   border-radius: 3px;
+}
+.carrinho a:hover{
+    transition: .5s ease-in-out;
+    background-color: rgba(182, 180, 180, 0.123);
+ }
+
+
+   @media (max-width: 600px) {
+ .foter{
+    margin-bottom: -20em;
+ }
 }
